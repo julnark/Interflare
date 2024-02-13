@@ -78,10 +78,10 @@ nav ul li a:hover {
 }
 
 .introTextImages {
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .boxes{
