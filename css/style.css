@@ -16,20 +16,24 @@ html {
     color: pink;
 }
 
-.header {
-    min-height: 100vh;
-    height: 800px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.207), rgba(0, 0, 0, 0.60)), url(../images/images.jpg);
+body {
+    background-image: url("/images/images.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .headernav {
-    max-width: 1170px;
-    margin: auto;
+    width: 100vw;
     height: 80px;
-    margin-top: 10px;
+    background-color: rgb(36, 0, 36);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .logo{
@@ -39,13 +43,14 @@ html {
 }
 
 
+.NavH1 > img {
+    width: 7%;
+    height: 7%;
+}
+
 .NavH1 {
     display: flex;
     justify-content: left;
-    line-height: 80px;
-    font-size: 30px;
-    font-size: inline;
-    margin-left: 50px;
 }
 
 .headernav > img {
@@ -78,7 +83,8 @@ nav ul li a:hover {
 }
 
 .introTextImages {
-    margin-top: 150px;
+    margin-top: 15vh;
+    margin-bottom: 100px;
     padding: 40px;
     display: flex;
     justify-content: space-around;
@@ -86,7 +92,7 @@ nav ul li a:hover {
 
 .boxes{
     padding: 20px;
-    background: #343434;
+    background: rgb(36, 0, 36);
     border-radius: 30px;
 }
 
