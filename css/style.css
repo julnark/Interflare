@@ -32,7 +32,7 @@ html {
     margin-top: 10px;
 }
 
-.logo{
+.logo {
     width: 250px;
     height: auto;
     margin-top: auto;
@@ -48,7 +48,7 @@ html {
     margin-left: 50px;
 }
 
-.headernav > img {
+.headernav>img {
     width: 40px;
 }
 
@@ -84,7 +84,7 @@ nav ul li a:hover {
     justify-content: space-around;
 }
 
-.boxes{
+.boxes {
     padding: 20px;
     background: #343434;
     border-radius: 30px;
@@ -99,7 +99,14 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-.boxes > p {
+.imgBox{
+    transition: transform .3s ease;
+}
+.imgBox:hover {
+transform: scale(1.4);
+}
+
+.boxes>p {
     margin-top: 20px;
     width: 600px;
 }
