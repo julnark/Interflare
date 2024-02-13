@@ -31,13 +31,19 @@ html {
     height: 80px;
 }
 
+.logo{
+    width: 250px;
+    height: auto;
+    margin-top: auto;
+}
+
 .NavH1 {
     display: flex;
     justify-content: left;
     line-height: 80px;
     font-size: 20px;
     font-size: inline;
-    padding-left: 1.9vw;
+    margin-left: 50px;
 }
 
 
