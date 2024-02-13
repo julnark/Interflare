@@ -29,6 +29,13 @@ html {
     max-width: 1170px;
     margin: auto;
     height: 80px;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+    margin-top: auto;
 }
 
 
@@ -36,9 +43,9 @@ html {
     display: flex;
     justify-content: left;
     line-height: 80px;
-    font-size: 20px;
+    font-size: 30px;
     font-size: inline;
-    padding-left: 1.9vw;
+    margin-left: 50px;
 }
 
 .headernav > img {
@@ -98,7 +105,7 @@ nav ul li a:hover {
 }
 
 .footer {
-    background: #343434;
+    background: rgb(36, 0, 36);
     padding-top: 50px;
 
 }
