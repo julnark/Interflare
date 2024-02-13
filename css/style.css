@@ -1,74 +1,20 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: pink;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: purple;
+}
 
 footer{
     background: #343434;
@@ -148,3 +94,55 @@ a:hover{
 .social-icons i:hover{
     color: #f18;
 }
+
+
+
+
+
+
+.header {
+    min-height: 100vh;
+    height: 800px;
+}
+
+.headernav {
+    max-width: 1170px;
+    margin: auto;
+    height: 80px;
+}
+
+.NavH1 {
+    display: flex;
+    justify-content: left;
+    line-height: 80px;
+    font-size: 20px;
+    font-size: inline;
+    padding-left: 1.9vw;
+}
+
+
+nav ul{
+    float: right;
+    line-height: 1vw;
+    margin-top: -3vw;
+    margin-right: 1vw;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+    color: purple;
+}
+
+nav ul li a:hover {
+    color: pink;
+}
+
